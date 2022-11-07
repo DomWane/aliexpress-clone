@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/react-deploy/static/css/main.f458bac9.css",
-    "main.js": "/react-deploy/static/js/main.1831733d.js",
-    "static/js/787.f72844f5.chunk.js": "/react-deploy/static/js/787.f72844f5.chunk.js",
-    "index.html": "/react-deploy/index.html",
-    "main.f458bac9.css.map": "/react-deploy/static/css/main.f458bac9.css.map",
-    "main.1831733d.js.map": "/react-deploy/static/js/main.1831733d.js.map",
-    "787.f72844f5.chunk.js.map": "/react-deploy/static/js/787.f72844f5.chunk.js.map"
+    "main.css": "/aliexpress-clone/static/css/main.f458bac9.css",
+    "main.js": "/aliexpress-clone/static/js/main.dc251a9a.js",
+    "static/js/787.f72844f5.chunk.js": "/aliexpress-clone/static/js/787.f72844f5.chunk.js",
+    "index.html": "/aliexpress-clone/index.html",
+    "main.f458bac9.css.map": "/aliexpress-clone/static/css/main.f458bac9.css.map",
+    "main.dc251a9a.js.map": "/aliexpress-clone/static/js/main.dc251a9a.js.map",
+    "787.f72844f5.chunk.js.map": "/aliexpress-clone/static/js/787.f72844f5.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f458bac9.css",
-    "static/js/main.1831733d.js"
+    "static/js/main.dc251a9a.js"
   ]
 }
