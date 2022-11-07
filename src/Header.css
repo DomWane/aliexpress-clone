@@ -1,0 +1,126 @@
+
+.header {
+    max-width: 1200px;
+    width: 100%;
+    height: 96px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    background-color: #fff;
+    margin-right: auto;
+    margin-left: auto;
+    width: 100%;
+    height: 96px;
+}
+.header_logo {
+    display: block;
+    object-fit: contain;
+    width: 256px;
+    height: 40px;
+
+}
+.header__search {
+    display: flex;
+    flex: 1;
+    align-items: center;
+
+}
+.header__searchMobile {
+    display: flex;
+    flex: 1;
+    align-items: center;
+ 
+}
+.header__nav_wrapper {
+    max-width: 1200px;
+    width: 100%;
+    height: 96px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.mobile__search {
+    display: none;
+}
+.header__searchInput {
+    border: 2px solid #ff4747;
+    border-radius: 4px 0 0 4px;
+    padding: 0 0 0 16px;
+    width: 100%;
+    height: 36px;
+}
+.header__nav {
+    display: flex;
+}
+.header__searchIcon {
+    border: 1px solid #ff4747;
+    background-color: #ff4747;
+    padding: 7px;
+    border-radius: 0 4px 4px 0;
+    width: 40px;
+    height: 36px;
+}
+.header__nav {
+    margin: 20px;
+}
+.header__cart {
+    display: flex;
+    margin: 20px;
+    align-items: center;
+}
+.header__cart > p {
+    margin: 5px;
+}
+.header__account {
+    display: flex;
+    align-items: center;
+    margin: 20px;
+}
+.link__account {
+    display: flex;
+    align-items: center;
+}
+
+@media only screen and (max-width: 768px) {
+    .mobile__search {
+        display: flex;
+        justify-content: center;
+    }
+    .header__search {
+        display: none;
+    }
+    .header {
+        display: block;
+    }
+    .container {
+        height: 155px;
+    }
+    .header {
+        height: 155px;
+    }
+    .mobile__search__container {
+        width: 300px;
+    }
+    .header_logo {
+        width: 125px;
+        margin: 20px;
+    }
+}
+@media only screen and (max-width: 400px) {
+    .header_logo {
+        width: 103px;
+    }
+}
+@media only screen and (max-width: 376px) {
+    .header_logo {
+        width: 89px;
+    }
+    .header__nav {
+        margin: -2px;
+    }
+}

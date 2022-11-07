@@ -1,0 +1,65 @@
+.login {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.login__logo {
+    object-fit: contain;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 130px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.login__logo_wrapper {
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid #ddd;
+    width: 100%;
+}
+.login__window {
+    width: 300px;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.login__input_wrapper {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.login__input_wrapper > input {
+    width: 100%;
+    display: inline-block;
+    margin-top: 20px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    padding: 3px 12px;
+    height: 40px;
+    background-color: transparent;
+}
+.login__register_button {
+    width: 100%;
+    background: linear-gradient(90deg,#ff640e,#ff3000);
+    color: #fff;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    height: 44px;
+    border-radius: 22px;
+    cursor: pointer;
+    outline: 0;
+    border: 1px solid #999;
+    min-width: 80px;
+    margin-top: 20px;
+}
+
+.css-d9c359-MuiButtonBase-root-MuiToggleButton-root.Mui-selected {
+    color: #ff3000 !important;
+    background-color: #ffe7db !important;
+}
+.css-1gjgmky-MuiToggleButtonGroup-root .MuiToggleButtonGroup-grouped:not(:first-of-type) {
+    margin-left: 0px !important;
+}
